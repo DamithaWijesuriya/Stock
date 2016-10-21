@@ -5,16 +5,21 @@ public class stock {
 
     int s_id;
     String s_name;
-    int s_qty;
+    double s_qty;
     double s_price;
+    String s_unit;
+    String s_pid;
 
 
-    public stock(int sid, String name, int qty, double price)
+    public stock(int sid, String name, double qty, double price, String unit,String pid )
     {
         s_id=sid;
         s_name=name;
         s_qty=qty;
         s_price=price;
-
+        s_unit=unit;
+        s_pid=pid;
     }
+
+
 }
